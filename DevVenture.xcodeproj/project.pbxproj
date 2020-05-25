@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B4C11D1247C68BC00709833 /* LectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C11D0247C68BC00709833 /* LectureViewController.swift */; };
 		8B756C32247C065700372A77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756C31247C065700372A77 /* AppDelegate.swift */; };
-		8B756C34247C065700372A77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756C33247C065700372A77 /* SceneDelegate.swift */; };
-		8B756C36247C065700372A77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756C35247C065700372A77 /* ViewController.swift */; };
 		8B756C39247C065700372A77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B756C37247C065700372A77 /* Main.storyboard */; };
 		8B756C3B247C06AB00372A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B756C3A247C06AB00372A77 /* Assets.xcassets */; };
 		8B756C3E247C06AB00372A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B756C3C247C06AB00372A77 /* LaunchScreen.storyboard */; };
+		8B756C48247C1A4C00372A77 /* LecturesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756C47247C1A4C00372A77 /* LecturesListTableViewController.swift */; };
+		8B756C4B247C1DE800372A77 /* lectures.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B756C4A247C1DE800372A77 /* lectures.json */; };
+		8B756C4E247C3A5D00372A77 /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756C4D247C3A5D00372A77 /* Lecture.swift */; };
+		8B756C50247C444800372A77 /* LectureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756C4F247C444800372A77 /* LectureTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B4C11D0247C68BC00709833 /* LectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureViewController.swift; sourceTree = "<group>"; };
 		8B756C2E247C065700372A77 /* DevVenture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevVenture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B756C31247C065700372A77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B756C33247C065700372A77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B756C35247C065700372A77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B756C38247C065700372A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B756C3A247C06AB00372A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B756C3D247C06AB00372A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B756C3F247C06AB00372A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B756C47247C1A4C00372A77 /* LecturesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesListTableViewController.swift; sourceTree = "<group>"; };
+		8B756C4A247C1DE800372A77 /* lectures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lectures.json; sourceTree = "<group>"; };
+		8B756C4D247C3A5D00372A77 /* Lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
+		8B756C4F247C444800372A77 /* LectureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,58 @@
 		8B756C30247C065700372A77 /* DevVenture */ = {
 			isa = PBXGroup;
 			children = (
-				8B756C31247C065700372A77 /* AppDelegate.swift */,
-				8B756C33247C065700372A77 /* SceneDelegate.swift */,
-				8B756C35247C065700372A77 /* ViewController.swift */,
-				8B756C37247C065700372A77 /* Main.storyboard */,
+				8B756C51247C5B7500372A77 /* LectureDetail */,
+				8B756C4C247C397E00372A77 /* Shared */,
+				8B756C49247C1A6700372A77 /* File */,
+				8B756C46247C154A00372A77 /* LectureList */,
+				8B756C45247C078F00372A77 /* Main */,
 				8B756C3A247C06AB00372A77 /* Assets.xcassets */,
 				8B756C3C247C06AB00372A77 /* LaunchScreen.storyboard */,
 				8B756C3F247C06AB00372A77 /* Info.plist */,
 			);
 			path = DevVenture;
+			sourceTree = "<group>";
+		};
+		8B756C45247C078F00372A77 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8B756C31247C065700372A77 /* AppDelegate.swift */,
+				8B756C37247C065700372A77 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8B756C46247C154A00372A77 /* LectureList */ = {
+			isa = PBXGroup;
+			children = (
+				8B756C47247C1A4C00372A77 /* LecturesListTableViewController.swift */,
+				8B756C4F247C444800372A77 /* LectureTableViewCell.swift */,
+			);
+			path = LectureList;
+			sourceTree = "<group>";
+		};
+		8B756C49247C1A6700372A77 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				8B756C4A247C1DE800372A77 /* lectures.json */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		8B756C4C247C397E00372A77 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8B756C4D247C3A5D00372A77 /* Lecture.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8B756C51247C5B7500372A77 /* LectureDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8B4C11D0247C68BC00709833 /* LectureViewController.swift */,
+			);
+			path = LectureDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +176,7 @@
 			files = (
 				8B756C3E247C06AB00372A77 /* LaunchScreen.storyboard in Resources */,
 				8B756C3B247C06AB00372A77 /* Assets.xcassets in Resources */,
+				8B756C4B247C1DE800372A77 /* lectures.json in Resources */,
 				8B756C39247C065700372A77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +188,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B756C36247C065700372A77 /* ViewController.swift in Sources */,
+				8B756C4E247C3A5D00372A77 /* Lecture.swift in Sources */,
+				8B4C11D1247C68BC00709833 /* LectureViewController.swift in Sources */,
+				8B756C48247C1A4C00372A77 /* LecturesListTableViewController.swift in Sources */,
+				8B756C50247C444800372A77 /* LectureTableViewCell.swift in Sources */,
 				8B756C32247C065700372A77 /* AppDelegate.swift in Sources */,
-				8B756C34247C065700372A77 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A28G46XJ75;
 				INFOPLIST_FILE = DevVenture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A28G46XJ75;
 				INFOPLIST_FILE = DevVenture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,82 @@
+[
+	{
+		"title": "Aula 01",
+		"topics": "Swift language",
+		"date": "11/05/20",
+		"summary": "Primeira aula de swift utilizando playground",
+		"image": "aula01",
+        "url": "https://www.youtube.com/watch?v=BwYI6FlNuyY"
+	},
+    {
+        "title": "Aula 02",
+        "topics": "Arrays",
+        "date": "12/05/20",
+        "summary": "Segunda aula de swift utilizando playground",
+        "image": "aula02",
+        "url": "https://www.youtube.com/watch?v=b-VHTKX9wY8"
+    },
+    {
+        "title": "Aula 03",
+        "topics": "Enums",
+        "date": "13/05/20",
+        "summary": "Terceira aula de swift utilizando playground",
+        "image": "aula03",
+        "url": "https://www.youtube.com/watch?v=spcN9IkjFYE"
+    },
+    {
+        "title": "Aula 04",
+        "topics": "Structs",
+        "date": "14/05/20",
+        "summary": "Quarta aula de swift utilizando playground",
+        "image": "aula04",
+        "url": "https://youtu.be/zkjHv8ebK70"
+    },
+    {
+        "title": "Aula 05",
+        "topics": "Class",
+        "date": "15/05/20",
+        "summary": "Quinta aula de swift utilizando playground",
+        "image": "aula05",
+        "url": "https://youtu.be/MX8lM9eVv3w"
+    },
+    {
+        "title": "Aula 06",
+        "topics": "Xcode",
+        "date": "16/05/20",
+        "summary": "Introdução ao Xcode",
+        "image": "aula06",
+        "url": "https://youtu.be/Jwvf_2QdefY"
+    },
+    {
+        "title": "Aula 07",
+        "topics": "Layouts",
+        "date": "18/05/20",
+        "summary": "Layouts usando Xcode",
+        "image": "aula01",
+        "url": "https://youtu.be/6jjhLmH6VR4"
+    },
+    {
+        "title": "Aula 08",
+        "topics": "Constriains",
+        "date": "19/05/20",
+        "summary": "Constrains usando Xcode",
+        "image": "aula08",
+        "url": "https://youtu.be/GZ5t6BcC4V4"
+    },
+    {
+        "title": "Aula 09",
+        "topics": "Table View",
+        "date": "20/05/20",
+        "summary": "Layouts com table view",
+        "image": "aula09",
+        "url": "https://youtu.be/cwTJI9nSAQo"
+    },
+    {
+        "title": "Aula 10",
+        "topics": "Scroll View",
+        "date": "21/05/20",
+        "summary": "Layouts com scroll View",
+        "image": "aula10",
+        "url": "https://www.youtube.com/watch?v=7wFkXlONsmQ"
+    },
+]
